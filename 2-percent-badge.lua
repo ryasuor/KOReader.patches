@@ -4,7 +4,7 @@
 -- stylua: ignore start
 --========================== [[Edit your preferences here]] ================================
 local text_size = 0.40	-- Adjust from 0 to 1
-local move_on_x = 4		-- Adjust how far left the badge should sit. 
+local move_on_x = 5		-- Adjust how far left the badge should sit. 
 local move_on_y = -1	-- Adjust how far up the badge should sit.
 local badge_w = 30		-- Adjust badge width
 local badge_h = 40		-- Adjust badge height
@@ -76,7 +76,7 @@ local function patchCoverBrowserProgressPercent(plugin)
             local BADGE_H = Screen:scaleBySize(badge_h) -- badge height
             local INSET_X = Screen:scaleBySize(move_on_x) -- push inward from the right edge
             local INSET_Y = Screen:scaleBySize(move_on_y) -- sit on the inner top edge
-            local TEXT_PAD = Screen:scaleBySize(2) -- breathing room inside the badge
+            local TEXT_PAD = Screen:scaleBySize(3) -- breathing room inside the badge
 
             -- Outer frame
             local fx = x + math.floor((self.width - target.dimen.w) / 2)
