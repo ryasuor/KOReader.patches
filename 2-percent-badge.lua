@@ -76,7 +76,7 @@ local function patchCoverBrowserProgressPercent(plugin)
             local BADGE_H = Screen:scaleBySize(badge_h) -- badge height
             local INSET_X = Screen:scaleBySize(move_on_x) -- push inward from the right edge
             local INSET_Y = Screen:scaleBySize(move_on_y) -- sit on the inner top edge
-            local TEXT_PAD = Screen:scaleBySize(6) -- breathing room inside the badge
+            local TEXT_PAD = Screen:scaleBySize(2) -- breathing room inside the badge
 
             -- Outer frame
             local fx = x + math.floor((self.width - target.dimen.w) / 2)
