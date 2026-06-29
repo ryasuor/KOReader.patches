@@ -3,10 +3,10 @@
 
 -- stylua: ignore start
 --========================== [[Edit your preferences here]] ================================
-local text_size = 0.50	-- Adjust from 0 to 1
-local move_on_x = 5		-- Adjust how far left the badge should sit. 
+local text_size = 0.40	-- Adjust from 0 to 1
+local move_on_x = 4		-- Adjust how far left the badge should sit. 
 local move_on_y = -1	-- Adjust how far up the badge should sit.
-local badge_w = 70		-- Adjust badge width
+local badge_w = 55		-- Adjust badge width
 local badge_h = 40		-- Adjust badge height
 local bump_up = 1		-- Adjust text position  
 --==========================================================================================
